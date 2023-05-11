@@ -1,0 +1,15 @@
+.canvas {
+    background-color: white;
+    width: 60vmin;
+    aspect-ratio: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    outline: 1px solid red;
+}
+
+*canvas {
+    position: absolute;
+    box-sizing: border-box;
+}
