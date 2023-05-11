@@ -1,4 +1,6 @@
 .canvas {
+    --skin: #369;
+    --skin-light: 47a;
     background-color: white;
     width: 60vmin;
     aspect-ratio: 1;
@@ -26,10 +28,10 @@
 
 .fin {
     border-radius: 100% 0 0 0;
-    background: red;
-    width: 20%;
-    height: 20%;
-    transform: translate(180%, -300%) skew(-10deg) rotate(3deg);
+    background: #369;
+    width: 25%;
+    height: 31%;
+    transform: translate(186%, -90%) skew(-10deg) rotate(3deg);
     top: 0;
-    left: 20%;
+    left: 60%;
 }
