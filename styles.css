@@ -13,3 +13,13 @@
     position: absolute;
     box-sizing: border-box;
 }
+
+.body {
+    width: 80%;
+    height: 60%;
+    background: #369;
+    border-radius: 50%;
+    top: 50%;
+    left: 0;
+    transform: translateY(30%)
+}
