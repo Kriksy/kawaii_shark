@@ -1,7 +1,7 @@
 .canvas {
     --skin: #369;
     --skin-light: 47a;
-    background-color: white;
+    background-color: yellow;
     width: 60vmin;
     aspect-ratio: 1;
     position: absolute;
@@ -35,4 +35,15 @@
     transform: translate(186%, -90%) skew(-10deg) rotate(3deg);
     top: 0;
     left: 60%;
+}
+
+.tail {
+    border-radius: 100% 0 0 0;
+    background: #369;
+    width: 18%;
+    height: 40%;
+    transform: translate(545%, -30%) skew(-10deg) rotate(10deg);
+    top: 50%;
+    left: 99%;
+
 }
