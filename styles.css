@@ -23,7 +23,8 @@
     border-radius: 50%;
     top: 50%;
     left: 0;
-    transform: translateY(30%)
+    transform: translateY(30%);
+    filter: drop-shadow(-1vmin 0vmin) drop-shadow(0.7vmin 0vmin) drop-shadow(0 0.75vmin) drop-shadow(0 -0.5vmin);
 }
 
 .fin {
