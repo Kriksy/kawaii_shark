@@ -23,3 +23,13 @@
     left: 0;
     transform: translateY(30%)
 }
+
+.fin {
+    border-radius: 100% 0 0 0;
+    background: red;
+    width: 20%;
+    height: 20%;
+    transform: translate(180%, -300%) skew(-10deg) rotate(3deg);
+    top: 0;
+    left: 20%;
+}
