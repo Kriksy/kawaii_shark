@@ -69,3 +69,12 @@
     top: 65%;
     transform: skew(10deg) rotate(30deg);
 }
+
+.eye {
+    width: 8%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    top: 45%;
+    left: 5%;
+    background: radial-gradient(circle at 32% 32%, white 14%, black 0);
+}
