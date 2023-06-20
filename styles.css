@@ -75,6 +75,22 @@
     aspect-ratio: 1;
     border-radius: 50%;
     top: 45%;
-    left: 5%;
+    left: 4%;
     background: radial-gradient(circle at 32% 32%, white 14%, black 0);
+}
+
+.eye + .eye {
+    left: 35%;
+}
+
+.mouth {
+    border-radius: 50%;
+    border: 0.5vmin solid #0000;
+    border-bottom: 0.75vmin solid #000;
+    border-left: 0.75vmin solid #000;
+    width: 10%;
+    aspect-ratio: 1;
+    top: 50%;
+    left: 18%;
+    transform: rotate(-45deg);
 }
