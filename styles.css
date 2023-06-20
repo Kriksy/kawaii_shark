@@ -1,6 +1,6 @@
 .canvas {
     --skin: #369;
-    --skin-light: 47a;
+    --skin-light: #47a;
     background-color: yellow;
     width: 60vmin;
     aspect-ratio: 1;
@@ -11,7 +11,7 @@
     outline: 1px solid red;
 }
 
-*canvas {
+.canvas * {
     position: absolute;
     box-sizing: border-box;
 }
@@ -19,31 +19,36 @@
 .body {
     width: 80%;
     height: 60%;
-    background: #369;
+    background: radial-gradient(100% 100% at 60% 0, var(--skin-light) 15%, var(--skin) 50%);
     border-radius: 50%;
     top: 50%;
     left: 0;
-    transform: translateY(30%);
-    filter: drop-shadow(-1vmin 0vmin) drop-shadow(0.7vmin 0vmin) drop-shadow(0 0.75vmin) drop-shadow(0 -0.5vmin);
+    transform: translateY(-50%);
+    filter: drop-shadow(-1vmin 0vmin) drop-shadow(0.7vmin 0vmin) drop-shadow(0 0.7vmin) drop-shadow(0 -0.5vmin);
 }
 
 .fin {
     border-radius: 100% 0 0 0;
-    background: #369;
+    background: var(--skin-light);
     width: 25%;
-    height: 31%;
-    transform: translate(186%, -90%) skew(-10deg) rotate(3deg);
+    height: 35%;
+    transform: translate(-50%, -90%) skew(-10deg) rotate(3deg);
     top: 0;
     left: 60%;
 }
 
 .tail {
     border-radius: 100% 0 0 0;
-    background: #369;
-    width: 18%;
+    background: var(--skin);
+    width: 14%;
     height: 40%;
-    transform: translate(545%, -30%) skew(-10deg) rotate(10deg);
+    transform: translate(0, -90%) skew(-10deg) rotate(10deg);
     top: 50%;
     left: 99%;
+}
 
+.tail-bottom {
+    width: 12%;
+    height: 30%;
+    transform: scaleY(-1) skew(-10deg) rotate(10deg);
 }
