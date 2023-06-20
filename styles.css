@@ -52,3 +52,14 @@
     height: 30%;
     transform: scaleY(-1) skew(-10deg) rotate(10deg);
 }
+
+.flipper-top {
+    border-radius: 0 0 0 100%;
+    background: var(--skin);
+    width: 18%;
+    height: 22%;
+    transform: skew(10deg) rotate(-16deg);
+    top: 70%;
+    left: 50%;
+    filter: drop-shadow(-1vmin 0vmin) drop-shadow(0.7vmin 0vmin) drop-shadow(0 0.7vmin);
+}
