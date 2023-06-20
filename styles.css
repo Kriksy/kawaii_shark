@@ -19,7 +19,9 @@
 .body {
     width: 80%;
     height: 60%;
-    background: radial-gradient(100% 100% at 60% 0, var(--skin-light) 15%, var(--skin) 50%);
+    background: 
+        radial-gradient(170% 70% at 30% 99%, #fff7 20%, #0000 21.1%),
+        radial-gradient(100% 100% at 60% 0, var(--skin-light) 15%, var(--skin) 50%);
     border-radius: 50%;
     top: 50%;
     left: 0;
