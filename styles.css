@@ -107,3 +107,12 @@
     left: 60%;
     filter: drop-shadow(1.5vmin 0) drop-shadow(1.5vmin 0);
 }
+
+.cheeks {
+    width: 10%;
+    height: 7%;
+    background: #fcc8;
+    border-radius: 50%;
+    left: 3%;
+    top: 57%;
+}
