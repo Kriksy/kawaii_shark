@@ -96,3 +96,14 @@
     left: 18%;
     transform: rotate(-45deg);
 }
+
+.gills {
+    width: 7.7%;
+    height: 14%;
+    border-radius: 50%;
+    border: 0.25vmin solid #0000;
+    border-right: 0.75vmin solid;
+    top: 45%;
+    left: 60%;
+    filter: drop-shadow(1.5vmin 0) drop-shadow(1.5vmin 0);
+}
