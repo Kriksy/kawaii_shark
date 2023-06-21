@@ -20,7 +20,7 @@
     width: 80%;
     height: 60%;
     background: 
-        radial-gradient(170% 70% at 30% 99%, #fff7 20%, #0000 21.1%),
+        radial-gradient(170% 70% at 30% 99%, #fff7 21%, #0000 21.1%),
         radial-gradient(100% 100% at 60% 0, var(--skin-light) 15%, var(--skin) 50%);
     border-radius: 50%;
     top: 50%;
@@ -98,21 +98,25 @@
 }
 
 .gills {
-    width: 7.7%;
+    width: 10%;
     height: 14%;
     border-radius: 50%;
     border: 0.25vmin solid #0000;
     border-right: 0.75vmin solid;
     top: 45%;
-    left: 60%;
+    left: 56%;
     filter: drop-shadow(1.5vmin 0) drop-shadow(1.5vmin 0);
 }
 
-.cheeks {
+.cheek {
     width: 10%;
     height: 7%;
     background: #fcc8;
     border-radius: 50%;
     left: 3%;
     top: 57%;
+}
+
+.cheek + .cheek {
+        left: 34.5%;
 }
