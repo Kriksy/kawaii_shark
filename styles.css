@@ -13,9 +13,9 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     background: 
-        radial-gradient(circle at 10% 20%, #fff2 4%, #fff0 0), 
-        radial-gradient(circle at 11% 7%, #fff3 3.25%, #fff0 0),
-        radial-gradient(circle at 5% 12.5%, #fff4 2%, #fff0 0) ;
+        radial-gradient(circle at 10% 20%, #fff4 4%, #fff0 0), 
+        radial-gradient(circle at 11% 7%, #fff2 3.25%, #fff0 0),
+        radial-gradient(circle at 5% 12.5%, #fff3 2%, #fff0 0) ;
 }
 
 .canvas * {
@@ -118,12 +118,12 @@ body {
 .cheek {
     width: 10%;
     height: 7%;
-    background: #fcc8;
+    background: #fcca;
     border-radius: 50%;
     left: 3%;
     top: 57%;
 }
 
 .cheek + .cheek {
-        left: 34.5%;
+    left: 34.5%;
 }
